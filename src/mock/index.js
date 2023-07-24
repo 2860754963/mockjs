@@ -18,7 +18,7 @@ let { userinfolist } = mockjs.mock({
     },
   ],
 });
-mockjs.mock('api/user/info', 'get', () => {
+mockjs.mock('api/user/info', 'get', () => { 
   return {
     // 后端返回的数据格式
     status: 200,

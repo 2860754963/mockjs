@@ -1,0 +1,11 @@
+{
+  demolist: {
+    list: [
+      {
+        id: '@increment',
+        name: '@cname',
+        address: '@city(true)',
+      },
+    ],
+  },
+}
